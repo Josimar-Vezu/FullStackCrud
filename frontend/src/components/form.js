@@ -62,7 +62,7 @@ const Form = ({ onEdit }) => {
                 <Label>Data de Nascimento</Label>
                 <Input name="data_nascimento" type="date" />
             </InputArea>
-            <Button type="submit"> SALVAR</Button>
+            <Button type="submit">SALVAR</Button>
         </FormContainer>
 
     );

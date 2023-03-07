@@ -22,6 +22,8 @@ function App() {
     <>
       <Container>
         <Title>Usuários</Title>
+        <Form />
+        <Grid />
       </Container>
       <ToastContainer autoClose={3000} position={toast.POSITION.BOTTOM_LEFT} />
       <globalStyle />

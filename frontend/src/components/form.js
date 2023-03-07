@@ -45,12 +45,12 @@ const Form = ({ onEdit }) => {
         <FormContainer ref={ref}>
             <InputArea>
                 <Label>Nome</Label>
-                <input name="nome" />
+                <Input name="nome" />
             </InputArea>
 
             <InputArea>
                 <Label>E-Mail</Label>
-                <input name="email" type="email" />
+                <Input name="email" type="email" />
             </InputArea>
 
             <InputArea>
@@ -60,9 +60,9 @@ const Form = ({ onEdit }) => {
 
             <InputArea>
                 <Label>Data de Nascimento</Label>
-                <input name="data_nascimento" type="date" />
+                <Input name="data_nascimento" type="date" />
             </InputArea>
-            <button type="submit"> SALVAR</button>
+            <Button type="submit"> SALVAR</Button>
         </FormContainer>
 
     );

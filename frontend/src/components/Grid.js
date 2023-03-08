@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Table = styled.table`
 width: 100%;
-background-color: #fff;
+background-color: white;
 padding: 20px;
 box-shadow: 0px 0px 5px;
 border-radius: 5px;

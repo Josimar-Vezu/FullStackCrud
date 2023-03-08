@@ -1,4 +1,4 @@
-import GlobalStyle from "./styles/global";
+import GlobalStyle from "./styles/global.js";
 import styled from "styled-components";
 import Form from "./components/Form.js"
 import Grid from "./components/Grid.js";
@@ -26,7 +26,7 @@ function App() {
         <Grid />
       </Container>
       <ToastContainer autoClose={3000} position={toast.POSITION.BOTTOM_LEFT} />
-      <globalStyle />
+      <GlobalStyle />
     </>
   );
 }

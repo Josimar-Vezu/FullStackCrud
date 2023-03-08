@@ -10,7 +10,6 @@ background-color: #fff;
 padding: 20px;
 box-shadow: 0px 0px 5px #ccc;
 border-radius: 5px;
-height: 40px;
 `;
 
 const InputArea = styled.div`
@@ -55,7 +54,7 @@ const Form = ({ onEdit }) => {
 
             <InputArea>
                 <Label>Telefone</Label>
-                <input name="fone" />
+                <Input name="fone" />
             </InputArea>
 
             <InputArea>

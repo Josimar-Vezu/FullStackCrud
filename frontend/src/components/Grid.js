@@ -16,6 +16,8 @@ word-break: break-all;
 
 export const Thead = styled.thead``;
 
+export const Tbody = styled.tbody``;
+
 export const Tr = styled.tr``;
 
 export const Th = styled.th`
@@ -27,7 +29,7 @@ padding-bottom: 5px;
     ${(props) => props.onlyWeb && "display:none"}
 }`;
 
-const Grid = () => {
+const Grid = ({ users }) => {
     return (
         <Table>
             <Thead>
@@ -40,6 +42,13 @@ const Grid = () => {
                 </Tr>
 
             </Thead>
+            <Tbody>
+                {users.map((item, i) => (
+                    <Tr key={i}>
+                        <Td width="30%">{item.nome}</Td>
+                    </Tr>
+                ))}
+            </Tbody>
         </Table>
     )
 }

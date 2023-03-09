@@ -54,11 +54,21 @@ const Grid = ({ users }) => {
                 {users.map((item, i) => (
                     <Tr key={i}>
                         <Td width="30%">{item.nome}</Td>
+                        <Td width="30%">{item.email}</Td>
+                        <Td width="20%" onlyWeb>
+                            {item.fone}
+                        </Td>
+                        <Td alignCenter width="5%">
+                            <FaEdit />
+                        </Td>
+                        <Td alignCenter width="5%">
+                            <FaTrash />
+                        </Td>
                     </Tr>
                 ))}
             </Tbody>
         </Table>
-    )
-}
+    );
+};
 
 export default Grid;
